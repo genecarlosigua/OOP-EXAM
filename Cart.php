@@ -23,7 +23,7 @@
                     <ul>
                         <li>Name:' . $item->getName() . '</li>
                         <li>Description:' . $item->getDescription() . '</li>
-                        <li>Price:' . number_format($item->getName(), 2) . '</li>
+                        <li>Price:' . number_format($item->getPrice(), 2) . '</li>
                         <li>Dose:' . $item->getDose() . '</li>
                         <li>Type:' . $item->getType() . '</li>
                         <li>Expiration Date:' . $item->getExpirationDate() . '</li>
