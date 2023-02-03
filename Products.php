@@ -28,11 +28,11 @@
         }
 
         function getDescription(){
-            return this->description;
+            return $this->description;
         }
 
         function getPrice(){
-            return this->price;
+            return $this->price;
         }
 
         //----------------------------
